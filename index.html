@@ -1,18 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>My Unity Plugins</title>
+  <meta charset="UTF-8">
+  <title>HongStudio - Unity Publisher</title>
+<style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fbfd;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #4a90e2;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    nav {
+      background: #ffffff;
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: #4a90e2;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      margin-top: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h2 {
+      border-left: 6px solid #4a90e2;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      color: #4a90e2;
+    }
+    ul li {
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #4a90e2;
+      color: #fff;
+      margin-top: 30px;
+    }
+  </style>
 </head>
-
 <body>
-    <h1>Unity Publisher Page</h1>
-    <p>Welcome! Here you can find my contact information.</p>
-    <p>This is my official website for Unity Asset Store plugins.</p>
+  <header>
+    <h1>HongStudio</h1>
+    <p>A Unity Asset Store Publisher</p>
+  </header>
 
+  <nav>
+    <a href="#about">About</a>
+    <a href="#assets">Assets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HongStudio is an independent Unity developer, creating tools and shaders for artists and game developers. 
+    Our goal is to provide simple and effective solutions for Unity users.</p>
+  </section>
+
+  <section id="assets">
+    <h2>Assets</h2>
+    <ul>
+      <li><strong>Texture Merger</strong> – This tool can help you to extract the channels of existing textures, reassemble them, and generate new texture resources in the Assets directory.</li>
+      <li><strong>Blend Shader For Polybrush</strong> – A shader package for mixed materials.</li>
+      <li><strong>Easy Painter</strong> – A mixed material tool for drawing splats in the editor.</li>
+      <!-- 你可以在这里继续添加更多插件 -->
+    </ul>
+  </section>
+
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email: ma3d@sina.com</p>
-</body>
+    <p>If you have any questions or need support, feel free to contact us:</p>
+    <p>Email: <a href="mailto:ma3d@sina.com">ma3d@sina.com</a></p>
+  </section>
 
+  <footer>
+    <p>&copy; 2025 HongStudio. All rights reserved.</p>
+  </footer>
+</body>
 </html>
